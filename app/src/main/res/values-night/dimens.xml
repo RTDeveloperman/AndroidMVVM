@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_circle_ic_recycler">75dp</dimen>
+</resources>

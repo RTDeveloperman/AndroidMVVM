@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="ViewModelMainPage"
+            type="ir.mvvm.viewmodel.ViewModelMainPage" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.MainPage">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_tophit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--<androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/gray"
+            android:minWidth="250dp"
+            android:padding="3dp"
+            app:cardCornerRadius="9dp"
+            android:layout_below="@id/rv_tophit">
+-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_below="@id/rv_tophit"
+                android:id="@+id/rv_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:layout_margin="5dp"
+
+                />
+      <!--  </androidx.cardview.widget.CardView>-->
+    </RelativeLayout>
+
+</layout>

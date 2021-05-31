@@ -1,0 +1,44 @@
+<resources>
+    <dimen name="title_size">14sp</dimen>
+
+    <dimen name="detail_size11">11sp</dimen>
+    <dimen name="detail_size13">13sp</dimen>
+
+
+    <dimen name="MarginLeftRightDialog">80dp</dimen>
+    <dimen name="MarginTopBottomDialog">10dp</dimen>
+    <dimen name="dialog_title_text_size">18sp</dimen>
+    <dimen name="dialog_detail_text_size">14sp</dimen>
+    <dimen name="button_text_size_dialog">15sp</dimen>
+    <dimen name="btn_min_width">64dp</dimen>
+    <dimen name="btn_min_height">36dp</dimen>
+    <dimen name="btn_margin">8dp</dimen>
+    <dimen name="standard_padding4">4dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="item_width">300dp</dimen>
+    <dimen name="padding_item_width">300dp</dimen>
+    <dimen name="public_margin_6">6dp</dimen>
+
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="weather_image_maxheight">100dp</dimen>
+    <dimen name="weather_image_maxwidth">100dp</dimen>
+
+
+    <dimen name="width_Hamayesh_item_image">125dp</dimen>
+    <dimen name="height_Hamayesh_item_image">100dp</dimen>
+
+
+    <dimen name="login_edt_padding">20dp</dimen>
+    <dimen name="login_edt_margin">10dp</dimen>
+
+
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="image_circle_ic_recycler">75dp</dimen>
+</resources>

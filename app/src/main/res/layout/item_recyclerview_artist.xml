@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="ArtistInfo"
+            type="ir.mvvm.model.ArtistInfo" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/gray"
+        android:padding="3dp"
+        app:cardCornerRadius="9dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_artist"
+                android:layout_width="@dimen/image_circle_ic_recycler"
+                android:layout_height="@dimen/image_circle_ic_recycler"
+                android:CircleImageViewArtist="@{ArtistInfo.image_link}"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@{ArtistInfo.name+ArtistInfo.famil,default=معین}" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

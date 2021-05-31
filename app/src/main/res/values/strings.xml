@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVVM</string>
+    <string name="phone_number">تلفن همراه</string>
+    <string name="Enter">ورود</string>
+    <string name="phone_number_wrong">شماره نامعتبر است</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
