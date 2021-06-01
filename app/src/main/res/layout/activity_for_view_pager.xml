@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="ActivityviewPager"
+            type="ir.mvvm.view.ActivityForViewPager" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="FragmentManager"
+            type="androidx.fragment.app.FragmentManager" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.ActivityForViewPager">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:SET_TABLAYOUT="@{viewpager}" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tablayout"
+            app:SET_VIEWPAGER="@{ActivityviewPager}" />
+    </RelativeLayout>
+</layout>

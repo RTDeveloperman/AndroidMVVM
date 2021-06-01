@@ -6,23 +6,25 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:hardwareAccelerated="true"
         android:theme="@style/Theme.Soland">
-        <activity android:name="ir.mvvm.view.HostActivityForImagesFragment">
+        <activity android:name=".view.ActivityForViewPager">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter></activity>
-        <activity android:name="ir.mvvm.view.HostActivityForPlayersFragment"></activity>
-        <activity android:name="ir.mvvm.view.MainPage">
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.HostActivityForImagesFragment">
 
         </activity>
-        <activity android:name="ir.mvvm.view.LoginPage" />
+        <activity android:name=".view.HostActivityForPlayersFragment" />
+        <activity android:name=".view.MainPage"></activity>
+        <activity android:name=".view.LoginPage" />
     </application>
 
 </manifest>
