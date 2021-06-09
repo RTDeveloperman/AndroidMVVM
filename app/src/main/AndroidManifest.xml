@@ -12,18 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Soland">
-        <activity android:name=".view.ActivityForViewPager">
+        <activity android:name=".view.ActivityForViewPager_Fragment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.HostActivityForImagesFragment">
+        <activity android:name=".view.ActivityForViewPager">
 
         </activity>
+        <activity android:name=".view.HostActivityForImagesFragment"></activity>
         <activity android:name=".view.HostActivityForPlayersFragment" />
-        <activity android:name=".view.MainPage"></activity>
+        <activity android:name=".view.MainPage" />
         <activity android:name=".view.LoginPage" />
     </application>
 
